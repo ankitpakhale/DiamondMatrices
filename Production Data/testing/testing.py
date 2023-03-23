@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from skimage.feature import corner_harris, corner_subpix, corner_peaks
 
-img = cv2.imread("208.jpg")
+img = cv2.imread("147.jpg")
 print(img.shape)
 # The image with shape (1280, 1024, 3) has a resolution of 1280 pixels by 1024 pixels and has 3 color channels, which means it is a color image.
 
