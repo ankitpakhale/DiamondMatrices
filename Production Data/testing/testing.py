@@ -33,5 +33,9 @@ cv2.drawContours(img, contours, -1, (0, 255, 0), 2)
 sift = cv2.xfeatures2d.SIFT_create()
 kp, des = sift.detectAndCompute(gray_img, None)
 
+
 # Draw keypoints on the image
 img_with_keypoints = cv2.drawKeypoints(img, kp, None)
+
+
+
