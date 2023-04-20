@@ -6,8 +6,8 @@ with open(path, 'a') as file:
     file.write("\n# This is the text for testing")
 
 os.system('git add .')
-print("****************** git added ******************")
+print("**************************** git added ****************************")
 os.system('git commit -m "Minor changes"')
-print("****************** git commited ******************")
+print("**************************** git commited ****************************")
 os.system('git push')
-print("****************** git pushed ******************")
+print("**************************** git pushed ****************************")
