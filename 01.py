@@ -7,7 +7,7 @@ with open(path, 'a') as file:
 
 os.system('git add .')
 print("******************************************** 1. git added ********************************************")
-os.system('git commit -m "Minor changes"')
+os.system('git commit -m "Added: Minor Changes"')
 print("******************************************** 2. git commited ********************************************")
 os.system('git push')
 print("******************************************** 3. git pushed ********************************************")
