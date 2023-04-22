@@ -1,13 +1,21 @@
-import os
+import os, random
+
 
 path = "./Production Data/testing/imageDetails.py"
 
-with open(path, 'a') as file:
-    file.write("\n# This is the text for testing")
+randomValue = random.randint(3, 10)
 
-os.system('git add .')
-print("******************************************** 1. git added ********************************************")
-os.system('git commit -m "Added: Minor Changes"')
-print("******************************************** 2. git commited ********************************************")
-os.system('git push')
-print("******************************************** 3. git pushed ********************************************")
+# for _ in range(randomValue):
+count = 0
+while True:  
+    print(count)
+    count += 1
+    with open(path, 'a') as file:
+        file.write("\n# This is the text for testing")
+
+    os.system('git add .')
+    print("******************************************** 1. git added ********************************************")
+    os.system('git commit -m "Added: Minor Changes"')
+    print("******************************************** 2. git commited ********************************************")
+    os.system('git push')
+    print("******************************************** 3. git pushed ********************************************")
