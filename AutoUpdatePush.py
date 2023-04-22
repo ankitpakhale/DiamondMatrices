@@ -5,8 +5,7 @@ path = "./Production Data/testing/imageDetails.py"
 
 randomValue = random.randint(3, 10)
 
-print(f"")
-print("******************************************** Commiting {randomValue} times ********************************************")
+print(f"******************************************** Commiting {randomValue} times ********************************************")
 
 for _ in range(randomValue):
     with open(path, 'a') as file:
