@@ -1,11 +1,8 @@
 import os, random
 
-
 path = "./Production Data/testing/imageDetails.py"
 
-randomValue = random.randint(3, 10)
-
-for _ in range(randomValue):
+for _ in range(random.randint(3, 10)):
     with open(path, 'a') as file:
         file.write("\n# This is the text for testing")
 
