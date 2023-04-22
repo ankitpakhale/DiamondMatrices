@@ -6,7 +6,7 @@ path = "./Production Data/testing/imageDetails.py"
 randomValue = random.randint(3, 10)
 
 print(f"************************************* Commiting {randomValue} times *************************************")
-
+print('\n')
 for _ in range(randomValue):
     with open(path, 'a') as file:
         file.write("\n# This is the text for testing")
