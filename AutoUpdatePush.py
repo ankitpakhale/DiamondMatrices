@@ -6,6 +6,7 @@ path = "./Production Data/testing/imageDetails.py"
 randomValue = random.randint(3, 10)
 
 print(f"Commiting {randomValue} times")
+    print("******************************************** 1. git added ********************************************")
 
 for _ in range(randomValue):
     with open(path, 'a') as file:
