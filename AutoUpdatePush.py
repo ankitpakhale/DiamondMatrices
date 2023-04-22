@@ -5,11 +5,7 @@ path = "./Production Data/testing/imageDetails.py"
 
 randomValue = random.randint(3, 10)
 
-# for _ in range(randomValue):
-count = 0
-while True:  
-    print(count)
-    count += 1
+for _ in range(randomValue):
     with open(path, 'a') as file:
         file.write("\n# This is the text for testing")
 
