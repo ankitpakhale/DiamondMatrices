@@ -3,7 +3,7 @@ import os, random
 
 path = "./Production Data/testing/imageDetails.py"
 
-randomValue = random.randint(3, 10)
+randomValue = random.randint(1, 3)
 
 print(f"************************************* Commiting {randomValue} times *************************************")
 print('\n')
